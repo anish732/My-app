@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Radium from "radium";
+import styled from "styled-components";
 import Person from "./Peson/Person";
 
 class App extends Component {
@@ -100,4 +100,4 @@ class App extends Component {
   }
 }
 
-export default Radium(App);
+export default App;
